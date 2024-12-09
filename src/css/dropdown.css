@@ -1,0 +1,21 @@
+.dropdown__plain{
+    padding: var(--spacing-medium);
+    border: 1px solid var(--primary-color);
+    background-color: var(--element-background-color);
+    cursor: pointer;
+    margin: 20px;
+}
+
+.dropdown__icon{
+    width: 148px;
+    height: 49px;
+    border: 1px solid var(--primary-color);
+    background-color: var(--element-background-color);
+    cursor: pointer;
+    appearance: none;
+    background-image: url(../assets/medical_information_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg);
+    background-position: left 5px top 50%;
+    background-repeat: no-repeat;
+    padding-left: 32px;
+    margin: 20px;
+}

@@ -1,0 +1,8 @@
+.checkbox-disabled {
+    background-color: var(--disabled-background-color);
+    color: var(--disabled-color);
+}
+
+.checkbox {
+    margin: 10px;
+}

@@ -1,0 +1,30 @@
+.content-container_input {
+    padding: var(--spacing-medium);
+    background-color: var(--background-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    overflow-x: auto; 
+    margin: var(--spacing-medium) 0;
+}
+
+.input{
+    box-sizing: border-box;
+    width: minmax(200px, 5fr);
+    padding: var(--spacing-small);
+    border-radius: var(--border-radius);
+    margin: var(--spacing-medium);
+}
+.input--default{
+    border: 1px solid var(--primary-color);
+}
+.input--focus{
+    border: 2px solid var(--secondary-color);
+    box-shadow: var(--box-shadow);
+}
+.input--error{
+    border: 2px solid var(--error-color);
+    box-shadow: var(--box-shadow);
+}
+.input--disabled{
+cursor: not-allowed;
+}

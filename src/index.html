@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Design system</title>
+		<link
+			rel="stylesheet"
+			href="./css/reset.css" />
+		<link
+			rel="stylesheet"
+			href="./css/variables.css" />
+		<link
+			rel="stylesheet"
+			href="./css/style.css" />
+		<link
+			rel="stylesheet"
+			href="./css/buttons.css" />
+		<link
+			rel="stylesheet"
+			href="./css/cards.css" />
+		<link
+			rel="stylesheet"
+			href="./css/alerts.css" />
+		<link
+			rel="stylesheet"
+			href="./css/checkbox.css" />
+		<link
+			rel="stylesheet"
+			href="./css/accordion.css" />
+		<link
+			rel="stylesheet"
+			href="./css/dropdown.css" />
+		<link
+			rel="stylesheet"
+			href="./css/input-fields.css" />
+		<link
+			rel="stylesheet"
+			href="./css/table.css" />
+		<link 
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+
+	</head>
+	<body>
+		<main>
+			<!-- LINKS -->
+			<section class="design-system">
+				<div class="design-system__sidebar-container">
+					<ul class="sidebar-links">
+						<li class="sidebar__link">Buttons</li>
+						<li class="sidebar__link">Cards</li>
+						<li class="sidebar__link">Alerts</li>
+						<li class="sidebar__link">Checkbox</li>
+						<li class="sidebar__link">Accordion</li>
+						<li class="sidebar__link">Dropdown</li>
+						<li class="sidebar__link">Input Fields</li>
+						<li class="sidebar__link">Table</li>
+					</ul>
+				</div>
+				<!-- DESIGN SYSTEM -->
+				<section class="design-system__content-container">
+					<!-- Buttons -->
+					<div class="content-container content-container__buttons">
+						<h2>Buttons</h2>
+						<button class="button button--default">Default Button</button>
+						<button class="button button--hover">Button Hover</button>
+						<button class="button button--transition">Button Transition</button>
+						<button
+							class="button button--disabled"
+							disabled>
+							Button Disabled
+						</button>
+					</div>
+
+					<!-- Cards -->
+					<div class="content-container content-container__cards">
+						<h2>Cards</h2>
+						<div class="card--default">
+							<h3>Default Card</h3>
+							<p>This is the card content.</p>
+						</div>
+						<br />
+						<div class="card--hover">
+							<h3>Card Hover</h3>
+							<p>his is the card content when hover.</p>
+						</div>
+						<br />
+						<div class="card--hover-effect">
+							<h3>Transition card</h3>
+							<p>Hover card to see the effect</p>
+						</div>
+						<br />
+					</div>
+
+					<!-- Alerts -->
+					<div class="content-container content-container__alerts">
+						<h2>Alerts</h2>
+						<div class="alerts alert alert-success">
+							This is a success alert.
+						</div>
+						<div class="alerts alert alert-warning">
+							This is a warning alert.
+						</div>
+						<div class="alerts alert alert-error">This is an error alert.</div>
+					</div>
+
+					<!-- Checkbox -->
+					<div class="content-container content-container__checkboxes">
+						<h2>Checkbox</h2>
+						<label> 
+							<input 
+								class="checkbox"
+								type="checkbox"/> 
+								Default &nbsp; 
+								Checkbox 
+							</label>
+						<label>
+							<input
+								class="checkbox"
+								type="checkbox"
+								checked />
+							Checked Checkbox
+						</label>
+						<label>
+							<input
+								class="checkbox"
+								type="checkbox"
+								class="checkbox-disabled"
+								disabled />
+							Disabled Checkbox
+						</label>
+					</div>
+
+					<!-- Accordion -->
+					<div class="content-container content-container__accordion">
+						<h2>Accordion</h2>
+						<div class="accordion">
+							<button class="accordion-header accordion-header-default">
+								<h3>Accordion</h3>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									height="24px"
+									viewBox="0 -960 960 960"
+									width="24px"
+									fill="#000000">
+									<path d="M480-360 280-560h400L480-360Z" />
+								</svg>
+							</button>
+							<div class="accordion-body accordion-body--display-none">
+								<p>Content for accordion.</p>
+							</div>
+						</div>
+
+						<div class="accordion">
+							<button class="accordion-header accordion-header--hover">
+								<h3>Accordion when hover</h3>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									height="24px"
+									viewBox="0 -960 960 960"
+									width="24px"
+									fill="#000000">
+									<path d="M480-360 280-560h400L480-360Z" />
+								</svg>
+							</button>
+							<div class="accordion-body accordion-body--display-none">
+								<p>Content for accordion.</p>
+							</div>
+						</div>
+
+						<div class="accordion">
+							<button class="accordion-header accordion-header--active">
+								<h3>Accordion when active</h3>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									height="24px"
+									viewBox="0 -960 960 960"
+									width="24px"
+									fill="#000000">
+									<path d="M480-360 280-560h400L480-360Z" />
+								</svg>
+							</button>
+							<div class="accordion-body accordion-body--active">
+								<p>Content for accordion.</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Dropdown -->
+					<div class="content-container content-container__dropdowns">
+						<h2>Dropdown</h2>
+						<select class="dropdown__plain">
+							<option>Select an option</option>
+							<option class="dropdown-plain__option1">Default1</option>
+							<option>Default1</option>
+							<option>Default1</option>
+						</select>
+						<select class="dropdown__icon">
+							<option>Select an option</option>
+							<option>Default1</option>
+							<option>Default2</option>
+							<option>Default3</option>
+						</select>
+					</div>
+
+					<!-- Input Field -->
+					<div class="content-container content-container__inputs">
+						<h2>Input Fields</h2>
+						<input
+							type="text"
+							placeholder="Default Input"
+							class="input input--default" />
+						<input
+							type="text"
+							placeholder="Focus Input"
+							class="input input--focus" />
+						<input
+							type="text"
+							placeholder="Error Input"
+							class="input input--error" />
+						<input
+							type="text"
+							placeholder="Disabled Input"
+							class="input input--disabled"
+							disabled />
+					</div>
+
+					<!-- Table -->
+					<div class="content-container content-container__table">
+						<h2>Table</h2>
+						<table>
+							<thead class="thead-default">
+								<tr>
+									<th>Value1</th>
+									<th>Value2</th>
+									<th>Value3</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="table-tr-default">
+									<td class="table-content">...</td>
+									<td>...</td>
+									<td>...</td>
+								</tr>
+								<tr class="table-tr-default">
+                                    <tr>
+									<td class="table-content">...</td>
+									<td>...</td>
+									<td>...</td>
+								</tr>
+								<tr class="table-tr-default">
+                                    <tr >
+									<td class="table-content">...</td>
+									<td>...</td>
+									<td>...</td>
+								</tr>
+							</tbody>
+						</table>
+                        <table>
+							<thead class="thead-hover">
+								<tr>
+									<th>Value1</th>
+									<th>Value2</th>
+									<th>Value3</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="table-tr-hover">
+									<td class="table-content">...</td>
+									<td>...</td>
+									<td>...</td>
+								</tr>
+								<tr class="table-tr-hover">
+									<td class="table-content">...</td>
+									<td>...</td>
+									<td>...</td>
+								</tr>
+								<tr class="table-tr-hover">
+									<td class="table-content">...</td>
+									<td>...</td>
+									<td>...</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</section>
+			</section>
+		</main>
+		<!-- FOOTER -->
+		<footer>
+			<p class="footer">&copy; 2024 Design System Project. All rights reserved.</p>
+		</footer>
+		<script src="js/app.js"></script>
+	</body>
+</html>

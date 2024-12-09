@@ -1,0 +1,44 @@
+.card--default {
+	width: 200px;
+	height: 300px;
+	padding: var(--spacing-medium);
+	border: 2px solid var(--secondary-color);
+	border-radius: var(--border-radius-small);
+	background-color: var(--primary-color);
+	text-align: center;
+	margin: var(--spacing-medium);
+    color: var(--background-color);
+}
+
+.card--hover {
+	width: 200px;
+	height: 300px;
+	padding: var(--spacing-medium);
+	border: 2px solid var(--primary-color);
+	border-radius: var(--border-radius-small);
+	background-color: var(--secondary-color);
+	text-align: center;
+	box-shadow: var(--box-shadow);
+	margin: var(--spacing-medium);
+    color: var(--background-color);
+}
+
+.card--hover-effect {
+	width: 200px;
+	height: 300px;
+	padding: var(--spacing-medium);
+	border: 2px solid var(--secondary-color);
+	border-radius: var(--border-radius-small);
+	background-color: var(--primary-color);
+	box-shadow: var(--box-shadow);
+	text-align: center;
+	transition: all 0.3s ease;
+	margin: var(--spacing-medium);
+    color: var(--background-color);
+}
+
+.card--hover-effect:hover {
+	border: 2px solid var(--primary-color);
+	border-radius: var(--border-radius-small);
+	background-color: var(--secondary-color);
+}

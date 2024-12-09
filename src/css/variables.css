@@ -1,0 +1,42 @@
+:root {
+/* Colors */
+--background-color: #F9FAFB;
+--surface-color: #FFFFFF;
+--text-primary: #1F2937;
+--text-secondary: #6B7280;
+
+/* Primary Colors */
+/* Highlight buttons, links and elements: */
+--primary-color: #3B82F6; 
+--secondary-color: #6366F1;
+--disabled-background-color: #D1D5DB;
+--disabled-color: #6e7073;
+--element-background-color: #dbe7fd;
+
+/* Accent Colors */
+--success-color: #10B981;
+--success-color-boarder: #0a6f4e;
+--warning-color: #F59E0B;
+--warning-color-boarder: #976308;
+--error-color: #EF4444;
+--error-color-boarder: #b83333;
+
+/* Shadows and borders*/
+--box-shadow: 0 4px 12px #00000026; 
+--border-color: #E5E7EB;
+--border-radius-small: 8px; 
+--border-radius-medium: 16px;
+--border-radius-large: 50%;
+
+/* Spacing */
+--spacing-xxsmall: 0.25rem;
+--spacing-xsmall: 0.5rem;
+--spacing-small: 0.75rem;
+--spacing-medium: 1rem;
+--spacing-large: 1.5rem;
+--spacing-xlarge: 2rem;
+--spacing-xxlarge: 3rem;
+
+/* Font size */
+--font-size-base: 16px;
+}
