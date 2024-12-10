@@ -3,7 +3,8 @@
     border: 1px solid var(--primary-color);
     background-color: var(--element-background-color);
     cursor: pointer;
-    margin: 20px;
+    margin-bottom: 50px;
+    margin-top: 10px;
 }
 
 .dropdown__icon{
@@ -17,5 +18,5 @@
     background-position: left 5px top 50%;
     background-repeat: no-repeat;
     padding-left: 32px;
-    margin: 20px;
+    margin-top: 10px;
 }

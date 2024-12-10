@@ -3,7 +3,6 @@
     padding: var(--spacing-medium);
     background-color: var(--background-color);
     border-radius: var(--border-radius);
-    box-shadow: var(--box-shadow);
     overflow-x: auto; 
     margin: var(--spacing-medium) 0;
 }
@@ -15,7 +14,8 @@ table {
     text-align: left;
     color: var(--text-color);
     border: 2px, solid var(--secondary-color);
-    margin: 50px;
+    margin-bottom: 50px;
+    margin-top: 10px;
 }
 
 .thead-hover{

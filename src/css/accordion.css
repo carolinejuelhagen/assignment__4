@@ -3,7 +3,7 @@
     padding: 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    width: width: minmax(200px, 5fr);;
+    width: minmax(200px, 5fr);;
 }
 .accordion-header {
     display: flex;
@@ -30,6 +30,16 @@
 }
 
 .accordion-header--hover{
+    background-color: var(--secondary-color);
+    border: 2px solid var(--primary-color);
+    box-shadow: var(--box-shadow);
+}
+
+.accordion-header-transition{
+    transition: all 0.3s ease;
+}
+
+.accordion-header-transition:hover{
     background-color: var(--secondary-color);
     border: 2px solid var(--primary-color);
     box-shadow: var(--box-shadow);
