@@ -8,6 +8,7 @@
 /* Primary Colors */
 /* Highlight buttons, links and elements: */
 --primary-color: #3B82F6; 
+--primary-color-boarder: #005ff6; 
 --secondary-color: #6366F1;
 --disabled-background-color: #D1D5DB;
 --disabled-color: #6e7073;

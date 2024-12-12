@@ -19,3 +19,4 @@ sideBarLinks.forEach((sidebarLink, index) => {
 		contentContainers[index].classList.add("content-container--active");
 	});
 });
+
